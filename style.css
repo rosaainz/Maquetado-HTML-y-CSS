@@ -1,0 +1,74 @@
+
+:root{
+    --primario: #060392;
+    --secundario:#C6C5CA;
+    --botones: #585AE4;
+
+    --fuentePrincipal:'IBM Plex Sans Arabic', sans-serif;
+}
+
+header{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/*Globales*/
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.2rem;
+    color:black;
+}
+
+img{
+    max-width: 80%;
+}
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3{
+    color: var(--primario);
+    font-family: var(--fuentePrincipal);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.logo{
+    max-width: 40%;
+}
+
+a{
+    text-decoration: none;
+    color: var(--secundario);   
+}
+
+
+.navbar{
+    padding: 1rem 0;
+    gap: 6rem;
+    text-align: center;
+    background-color: #fff;
+    margin: 2 0;
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contenedor-header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
